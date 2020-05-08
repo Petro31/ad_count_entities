@@ -23,10 +23,7 @@ count_entities:
 
 #### Advanced
 ```yaml
-# Creates groups for all domains.
-# Renames group.all_switches to group.switch_master
-# Renames group.all_lights to group.light_master
-# Any new entity_id that is created will be added to the correct group.
+# Creates a sensor for all domains except the excluded list
 count_entities:
   module: count_entities
   class: CountEntities
